@@ -1,0 +1,128 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a href="index.html">
+          <span class="logo-p">PP-----a-</span><span class="logo-c">C</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Acceuil </a>
+      </li>
+      <li
+        class="nav-item dropdown"
+        [ngClass]="{ show: display.sci }"
+        (click)="toggle('sci')"
+      >
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sci
+        </a>
+        <div
+          class="dropdown-menu"
+          [ngClass]="{ show: display.sci }"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <a class="dropdown-item" href="#">Sci 1ère année</a>
+          <a class="dropdown-item" href="#">Sci 2ème année</a>
+          <a class="dropdown-item" href="#">Sci 3ème année</a>
+        </div>
+      </li>
+      <!--
+      <li
+        class="nav-item dropdown"
+        [ngClass]="{ show: display.sch }"
+        (click)="displaySch = !displaySch"
+      >
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Sch
+        </a>
+        <div
+          class="dropdown-menu"
+          [ngClass]="{ show: displaySch }"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <a class="dropdown-item" href="#">Sch 1ère année</a>
+          <a class="dropdown-item" href="#">Sch 2ème année</a>
+          <a class="dropdown-item" href="#">Sch 3ème année</a>
+        </div>
+      </li>
+      <li
+        class="nav-item dropdown"
+        [ngClass]="{ show: displayHistoire }"
+        (click)="displayHistoire = !displayHistoire"
+      >
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Histoire
+        </a>
+        <div
+          class="dropdown-menu"
+          [ngClass]="{ show: displayHistoire }"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <a class="dropdown-item" href="#">Histoire 4/5ème année</a>
+          <a class="dropdown-item" href="#">Histoire 6ème année</a>
+          <a class="dropdown-item" href="#">Histoire 7ème année</a>
+        </div>
+      </li>
+      <li
+        class="nav-item dropdown"
+        [ngClass]="{ show: displayGeography }"
+        (click)="displayGeography = !displayGeography"
+      >
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Géographie
+        </a>
+        <div
+          class="dropdown-menu"
+          [ngClass]="{ show: displayGeography }"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <a class="dropdown-item" href="#">Géographie 4/5ème année</a>
+          <a class="dropdown-item" href="#">Géographie 6ème année</a>
+          <a class="dropdown-item" href="#">Géographie 7ème année</a>
+        </div>
+      </li>-->
+      <li class="nav-item">
+        <a class="nav-link" href="#">Primaire</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Commande 2022</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Paiement</a>
+      </li>
+    </ul>
+  </div>
+</nav>

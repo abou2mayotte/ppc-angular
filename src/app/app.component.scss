@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300&family=IBM+Plex+Serif:wght@300&family=Island+Moments&family=Lato:wght@300&family=Lobster&family=Nanum+Myeongjo&family=Oregano&family=Outfit:wght@200&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro:wght@300&family=The+Nautigal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;300&family=IBM+Plex+Serif:wght@300&family=Island+Moments&family=Lato:wght@300&family=Lobster&family=Nanum+Myeongjo&family=Nunito:wght@200&family=Oregano&family=Outfit:wght@200&family=Roboto:wght@100&family=Source+Sans+Pro:wght@300&family=Source+Serif+Pro:wght@300&family=The+Nautigal&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  padding-top: 3.4rem;
+  margin-top: 3.4rem;
+}
+.logo {
+  font-family: "Lobster", cursive;
+}
+html {
+  height: 100%;
+}
+/************* Reset ************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 1.25rem;
+}
+/**********************************/
+
+/************* header **************/
+
+/*** à déplacer dans un composant**/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  background: white;
+  z-index: 10;
+}
+
+nav .navbar .logo a {
+  text-decoration: none;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+/*************************** footer ********************************/
+footer {
+  width: 100%;
+  height: 100px;
+  background: whitesmoke;
+  margin-top: 3rem;
+}
+
+.pied-de-page p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 50px;
+  font-size: 1.15rem;
+}
+
+.mail-ppc {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
